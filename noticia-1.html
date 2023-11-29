@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PROBLEMAS DECORRENTES DO USO DA IA</title>
+    <link rel="stylesheet" href="static/css/fonts.css">
+    <link rel="stylesheet" href="static/css/default-margin.css">
+    <style>
+        body {
+            background-color: black;
+            color: white;
+            font-family: 'IBM Plex Sans', sans-serif;
+            font-size: 1.25em;
+        }
+        
+        #seta {
+            color: white;
+            text-decoration: none;
+            padding: 0.15em;
+            border-radius: 50%;
+            border: 2px white solid;
+            display: inline-flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 1.5em;
+            font-weight: bolder;
+            width: 1.2em;
+            height: 1em;
+            position: relative;
+            padding-bottom: 0.4em;
+        }
+
+        .news-header {
+            display: flex;
+            justify-content: center;
+            gap: 1em;
+            align-items: center;
+        }
+
+        .news-header img {
+            width: 50%;
+            height: 15em;
+            object-fit: cover;
+            margin-top: 1em;
+        }
+
+        .description, .autores {
+            color: rgb(160, 160, 160);
+        }
+
+        .news-text {
+            text-align: justify;
+            text-indent: 1em;
+            margin: 0;
+        }
+
+        @media (max-width: 600px) {
+            .news-header {
+                flex-direction: column;
+            }
+
+            .news-header img {
+                width: 100%;
+            }
+            
+        }
+    </style>
+</head>
+<body>
+    <article>
+        <section class="default-margin">
+            <div class="back-arrow">
+                <a href="javascript:history.back()" id="seta">&#8592;</a>
+            </div>
+            <div class="news-container">
+                <div class="news-content">
+                    <div class="news-header">
+                        <img width="100" src="static/img/news/news1.png" alt="Link imagem">
+                        <div class="news-header-info">
+                            <h1 id="Titulo_noticia">PROBLEMAS DECORRENTES DO USO DA IA</h1>
+                            <p class="description">Entenda os problemas que o uso da Inteligência Artificial pode causar no nosso dia a dia e como ela funciona.</p>
+                            <p class="autores">Autoria de: Maria Rhoden</p>
+                        </div>
+                    </div>
+                    <hr>
+                    <p class="news-text">
+                        A IA nada mais é do que um conjunto de algoritmos para realizar uma determinada tarefa, sabendo disso temos em mente que ela se constrói com base nos dados que ela recebe. Como entrada temos o seguinte cenário: se os dados estão enviesados, ou seja, que tenha algum tipo de vício, os algoritmos irão refletir esses vieses agindo de maneira nociva para a sociedade.
+                    </p>
+                    <p class="news-text">
+                        Toda vez que fazemos um algoritmo de inteligência artificial e inserimos os dados ele traz todas essas características que estão nos dados, e se esses dados forem coerentes e úteis o algoritmo tende a trabalhar de forma saudável, caso contrário a IA vai refletir de forma diferente.
+                    </p>
+                    <p class="news-text">
+                        Neste sentido sabemos que temos que usar a IA de forma responsável, um exemplo é quando falamos de IA na medicina, ela é uma ferramenta de suporte para nos ajudar a tomar uma decisão, não podemos confiar cegamente na sugestão de diagnóstico da IA e nunca deixar ela tomar essa decisão de diagnóstico sozinha.
+                    </p>
+                    <p class="news-text">
+                        Outro exemplo que podemos citar são as eleições nos EUA, muitos falam que os dados foram corrompidos pela IA, o que pode ser possível. Sabendo que os algoritmos podem ser manipulados para que uma notícia seja espalhada pela internet de forma que se torne mais relevante nas redes e tendo mais visibilidade pelas pessoas, neste contexto se alguém usar esses algoritmos de forma incoerente pode acarretar em uma mudança da opinião pública.
+                    </p>
+                    <p class="news-text">
+                        Temos que ter cuidado com a IA mas ela não é algo totalmente nocivo, podendo nos ajudar na área de saúde e otimizar nosso dia a dia, um exemplo são as ferramentas de mapas que nos ajudam a se deslocar para algum estabelecimento que não sabemos o endereço.
+                    </p>
+                </div>
+                <hr>
+                </div>
+            </div>
+        </section>
+    </article>
+</body>
+</html>

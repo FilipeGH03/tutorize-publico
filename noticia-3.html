@@ -3,9 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{{ noticia[0]['manchete'] }}</title>
-    <link rel="stylesheet" href="../static/css/fonts.css">
-    <link rel="stylesheet" href="../static/css/default-margin.css">
+    <title>AS LEIS SOBRE A INTERNET SÃO RÍGIDAS O SUFICIENTE?</title>
+    <link rel="stylesheet" href="static/css/fonts.css">
+    <link rel="stylesheet" href="static/css/default-margin.css">
     <style>
         body {
             background-color: black;
@@ -76,19 +76,22 @@
             <div class="news-container">
                 <div class="news-content">
                     <div class="news-header">
-                        <img width="100" src="data:image;base64,{{ noticia[0]['imagem'] }}" alt="Link imagem">
+                        <img width="100" src="static/img/news/news3.png" alt="Link imagem">
                         <div class="news-header-info">
-                            <h1 id="Titulo_noticia">{{ noticia[0]['manchete'] }}</h1>
-                            <p class="description">{{ noticia[0]['descricao'] }}</p>
-                            <p class="autores">Autoria de: {{ noticia[0]['nome_autores'] }}</p>
+                            <h1 id="Titulo_noticia">AS LEIS SOBRE A INTERNET SÃO RÍGIDAS O SUFICIENTE?</h1>
+                            <p class="description">As leis existentes sobre a internet conseguem dar conta da nossa realidade atual? Deveriam existir leis mais rígidas?</p>
+                            <p class="autores">Autoria de: Maria Rhoden</p>
                         </div>
                     </div>
                     <hr>
-                    {% for paragrafo in noticia[0]['corpo'].split('\n') %}
-                        <p class="news-text">
-                            {{ paragrafo }}
-                        </p>
-                    {% endfor %}
+                    <p class="news-text">
+                        Não precisamos de leis mais rígidas, o que elas precisam é abranger mais aspectos. 
+                    </p>
+                    <p class="news-text">
+                        As leis garantem liberdade de expressão e liberdade individual, mas também criam mecanismos para eventuais punições para quem excede seus direitos. As leis existentes já trazem uma série de informações importantes para orientar o uso da internet, cabe a profissionais da área da justiça aplicarem essas leis quando crimes cometidos na internet ocorrem, assim, vamos viver em um ambiente virtual mais seguro.
+                    <p class="news-text">
+                        Talvez no futuro vamos precisar de algum ajuste na legislação para atender as mudanças da internet e garantir a segurança das pessoas que utilizam uma rede em geral.
+                    </p>
                 </div>
                 <hr>
                 </div>
