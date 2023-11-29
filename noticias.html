@@ -59,15 +59,13 @@
     </div>
    
     <div class="todas-noticias default-margin"> 
-        {% for noticia in noticias %}
-            <div style="cursor: pointer;" onclick="window.location.href='/noticia/{{ noticia['id'] }}'" class="noticias">
-                <img class="imagens-noticias" src="data:image;base64,{{ noticia['imagem'] }}" alt="">
+            <div style="cursor: pointer;" class="noticias">
+                <img class="imagens-noticias" src="static/img/news1.png" alt="">
                 <div class="noticia-resumo">
-                    <h2>{{ noticia['manchete'] }}</h2>
-                    <p>{{ noticia['descricao'] }}</p>
+                    <h2></h2>
+                    <p></p>
                 </div>
             </div>
-        {% endfor %}
     </div>
 
     <footer>
