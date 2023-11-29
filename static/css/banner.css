@@ -1,0 +1,141 @@
+#particles-js {
+    background-color: black;
+    width: 100%;
+    height: 100vh;
+}
+
+#container-banner {
+  width: 100%;
+  height: 100vh;
+}
+
+#particles-js {
+  position: absolute;
+}
+
+#container-banner .links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 5%;
+  background-color: #3B3B3B;
+}
+
+#container-banner .links ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+#container-banner .links li {
+  font-size: 30px;
+  padding-inline: 5%;
+  z-index: 1;
+  font-family:'IBM Plex Sans', sans-serif;
+  transition: .3s;
+  opacity: 0.6;
+  text-align: center;
+}
+
+#container-banner .links li a {
+  color: white;
+  text-decoration: none;
+}
+
+#container-banner .links li:hover {
+  opacity: 1;
+}
+
+#container-banner #logo {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+#container-banner img {
+  object-fit: contain;
+  width: 80%;
+  height: 80%;
+}
+
+#burguer {
+  width: 12%;
+  height: 6%; 
+  margin-left: 6.9vw;
+  margin-top: 3vh;
+  font-size: 3em;
+  display: none;
+  z-index: 1001;
+  position: fixed;
+  user-select: none;
+}
+
+.burguer-click {
+  width: 32.5vw;
+  height: 22vh;
+  z-index: 1000;
+  position: fixed;
+  padding-left: 4vw;
+  display: none;
+  padding-top: 10vh;
+  animation-name: start;
+  animation-duration: 1.2s;
+  background-color: rgba(100, 100, 100, 0.6);
+  list-style-type: none;
+  font-family: 'IBM Plex Sans', sans-serif;
+  
+}
+
+.burguer-click > * a{
+  color: white;
+  height: 5vh;
+  font-size: 1em;
+  text-decoration: none;
+}
+.burguer-click > * {
+  color: white;
+  height: 5vh;
+  font-size: 1.3em;
+  text-decoration: none;
+}
+
+@media (max-width: 650px) {
+  #container-banner #logo {
+    align-items: center;
+  }
+}
+
+@media (max-width: 725px) {
+  #container-banner .links li {
+    font-size: 1.5em;
+  }
+}
+
+@media (max-width: 1016px) {
+  #container-banner .links li {
+    padding-inline: 3%;
+  }
+}
+
+@media (max-width: 440px){
+  #burguer {
+    display: block;
+  }
+  #container-banner .links {
+    display: none;
+  }
+}
+
+
+
+@keyframes start{
+  0%{
+    opacity: 0;
+  }
+  100%{
+    opacity: 1;
+  }
+}

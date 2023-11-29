@@ -1,0 +1,45 @@
+#container-banner .links ul {
+    justify-content: left;
+}
+
+.menu {
+    width: 20%;
+    height: 10%; 
+    display: none;
+}
+
+#botao{
+    background-color: #2576BE;
+    color: white;
+    border-radius: 50px;
+    padding: 10px;
+    border-color: #2576BE;
+    margin-top: 1em;
+}
+  
+  .item {
+    color: white;
+    height: 5vh;
+    font-size: 1.3em;
+  }
+  
+  .inicio{
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      bottom: 18em;
+      position: relative;
+  }
+
+  #logo img{
+    position: relative;
+    bottom: 3em;
+  }
+
+h2{
+  margin-inline: 1.5em;
+  text-indent: 0;
+}
+  
+  

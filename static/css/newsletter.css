@@ -1,0 +1,108 @@
+#newsletter-noticias {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    gap: 3vh;
+    margin-inline: 33vw;
+    margin-top: 20vh;
+    margin-bottom: 10vh;
+    border-left: solid 0.1em white;
+    border-right: solid 0.1em white;
+    padding-inline: 2em;
+}
+
+#newsletter-noticias .email {
+    color: #F56527;
+    font-size: 4em;
+}
+
+#newsletter-noticias .botao {
+    background-color: #2576BE;
+    color: white;
+    border-radius: 50px;
+    padding: 10px;
+    border-color: #2576BE;
+    text-decoration: none;
+}
+
+.botao {
+    background-color: #2576BE;
+    color: white;
+    border-radius: 50px;
+    padding: 10px;
+    border-color: #2576BE;
+    text-decoration: none;
+}
+
+.modal-newsletter{
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 50%;
+    height: 60%;
+    background-color: black ;
+    border: 0.3em solid white;
+    position: fixed;
+    border-radius: 1.8em;
+    display:none;
+    justify-content: center;
+    align-items: center;
+}
+
+.informacoes-newsletter{
+    display: flex;
+    align-items: center;
+    color: white;
+    flex-direction: column;
+    gap:1em;
+    padding: 2em;
+}
+
+.img-newsletter{
+    width: 40%;
+    height: 30%;
+}
+
+.nome-newsletter{
+    background-color: white;
+    border:none;
+    width: 40%;
+    height: 30%;
+    padding: 0.5em;
+    border-radius: 1em;
+}
+
+.email-newsletter{
+    background-color: white;
+    border:none;
+    width: 40%;
+    height: 30%;
+    margin-bottom: 5%;
+    padding: 0.5em;
+    border-radius: 1em;
+}
+
+
+#icon-newsletter{
+    cursor: pointer;
+}
+
+
+@media (max-width: 500px){
+    #newsletter-noticias{
+        padding-inline: 5em;
+    }
+
+    .modal-newsletter{
+        width: 80%;
+        height: 50%;
+    }
+
+    
+    .img-newsletter{
+        width: 70%;
+        height: 50%;
+    }
+
+}

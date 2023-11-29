@@ -1,0 +1,126 @@
+
+
+#container-tecnicas {
+    width: 100%; height: 100%;
+    display: flex;
+    margin-top: 1em;
+}
+
+#tec-txt {
+    width: 60%; height: 100%;
+} 
+
+#image-container {
+    width: 30%; height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 1em;
+}
+
+#button-container {
+    width: 10%; height: 100%;
+    display: flex;
+    align-items: center;
+    transform: translateY(-50%);
+}
+
+#container-tecnicas #image-container #image {
+    width: 14em;
+    height: 14em;
+    border-radius: 50%;
+    -webkit-transition: background-image 0.2s ease-in-out;
+    transition: background-image 0.2s ease-in-out;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url(../img/tecnologias/testetec.webp);
+    box-shadow: 1px 1px 20px 1px rgba(255, 255, 255, 0.477);
+}
+
+#container-tecnicas .radio {
+    font-size:  1.5em ;
+    margin-inline: 0.2em;
+    color: #ff914d;
+    transition: .5s;
+    user-select: none;
+    margin-top: 0.7em;
+}
+
+#container-tecnicas .checked {
+    color: #2576BE;
+}
+
+#container-tecnicas #button-container span {
+    font-size: 5em;
+    cursor: pointer;
+    user-select: none;
+}
+
+#container-tecnicas #image-container .click {
+    font-size: 5em;
+    cursor: pointer;
+    user-select: none;
+    display: none;
+}
+
+#container-tecnicas  p {
+    text-align: justify;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+#container-tecnicas  p .sm{
+    color:#2576BE;
+    text-decoration: underline;
+}
+#container-tecnicas .radio-buttons {
+    width: 100%; height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+@media (max-width: 440px){
+    #container-tecnicas {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    #tec-txt {
+        width: 100%; 
+        font-size: 15px;
+    } 
+
+    #container-tecnicas  p {
+        width: 100%;
+    }
+    #image-container {
+        width: 100%; height: 100%;
+        margin-top: 1em;
+    }
+
+    #container-tecnicas #image-container #image {
+        width: 11em;
+        height: 11em;
+    }
+
+    #container-tecnicas #image-container .click {
+        display: block;
+        font-size: 4em !important;
+        margin-left: auto;
+    }
+
+    #container-tecnicas #one {
+        padding-left: 32%;
+
+    }
+
+    #container-tecnicas #button-container span{
+        display: none;
+    }
+    }
+

@@ -1,0 +1,42 @@
+h2 {
+  font-family: 'IBM Plex Mono', sans-serif;
+  text-align: center;
+  line-height: 2.2em;
+}
+  
+h2 span {
+  padding: 0.20em ;
+  border: white 0.1em solid;
+}
+
+h3 {
+  font-family: 'IBM Plex Mono', monospace;
+}
+
+p {
+  text-align: justify;
+  line-height: 1.5em;
+}
+
+.subtitulo-noticias {
+  font-family: 'Montserrat' sans-serif;
+  text-decoration: underline;
+  text-underline-offset: 0.2em;
+}
+
+
+article {
+  margin-top: 12em;
+}
+
+@media (max-width: 400px) {
+  h2  {
+      font-size: 18px; 
+      line-height: 1.6em;
+      padding-bottom: 2em;
+  }
+}
+
+
+
+

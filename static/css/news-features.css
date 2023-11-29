@@ -1,0 +1,162 @@
+.news-features{
+    background-image: url("/tutorize/static/img/news/news1.png"); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;  
+    display: flex;
+    padding: 0;  
+    transition: 1.8s
+}
+
+.on-animation{
+    animation-name: start;
+    animation-duration: 1.7s;
+    animation-timing-function: initial;
+}
+
+.news-features .left{
+    z-index: 1;
+    height: 100%;
+    width: 50%;
+}
+
+.news-features .right{
+    z-index: 1;
+    height: 100%;
+    width: 50%;
+}
+.news-features .left #nt{
+    width: 70%;
+    margin-left: 10%;
+    margin-top: 20%;
+    font-size: 2em;
+}
+
+.news-features .left p{
+    width: 60%;
+    margin-left: 10%;
+    margin-top: 15%;
+    margin-bottom: 15%;
+    text-align: left;
+}
+
+.more {
+    text-decoration: none;
+    border-style: solid;
+    border-color: white;
+    color: white;
+    border-radius: 20px;
+    border-width: 2px;
+    margin-left: 30%;  
+    font-size: 1.1em; 
+    padding: 4px; 
+    padding-inline: 30px;  
+}
+
+.right .space{
+    width: 100%;
+    height: 70%;
+}
+
+.right .down{   
+    width: 100%;
+    height: 30%;
+}
+
+.right .down .ln{
+    width: 95%;
+    display: flex;
+    justify-content: center;
+    margin-left: 1vw;
+}
+.right .down .ln .line{
+    margin-top: 4vh;
+    width: 50%;
+    height: 0.4vh;
+    background-color: rgb(255, 255, 255);
+}
+
+.right .down .ln .number{
+    font-size: 2em;
+    margin-left: 1vw;
+}
+
+.right .down .arrows{
+    display: flex;
+    justify-content: center;
+    margin-left: -1vw;
+    width: 100%;
+
+}
+
+.right .down .arrows span{
+    font-size: 5em;
+    margin-left: 2%;
+    cursor: pointer;
+    user-select: none;
+}   
+
+@keyframes start{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+@media (max-width:440px){
+    .news-features{
+        display: block;
+    }
+    .news-features .left{
+        z-index: 1;
+        height: 80%;
+        width: 100%;
+    }
+    .news-features .right{
+        z-index: 1;
+        height: 20%;
+        width: 100%;
+    }
+
+    .news-features .left #nt{
+        width: 80%;
+        margin-left: 4%;
+        margin-top: 0%;
+        font-size: 2em;
+        padding-top: 15%;
+    }
+    
+    .news-features .left p{
+        width: 60%;
+        margin-left: 4%;
+        margin-top: 0%;
+        margin-bottom: 15%;
+        text-align: left;
+    }
+
+    .more {
+        margin-left: 5%;  
+        font-size: 1.1em; 
+        padding: 4px; 
+        padding-inline: 30px;  
+    }
+
+    .news-features .space{
+        display: none;
+    }
+
+    .right .down{   
+        width: 100%;
+        height: 30%;
+    }
+
+    .right .down .ln{
+        width: 100%;
+        margin-left: 0;
+    }
+    .right .down .ln .line{
+        margin-left: 9%;
+    }
+}

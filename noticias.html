@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="static/img/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="../static/css/banner.css">
+    <link rel="stylesheet" href="../static/css/banner-noticias.css">
+    <link rel="stylesheet" href="../static/css/style.css">
+    <link rel="stylesheet" href="../static/css/newsletter.css">
+    <link rel="stylesheet" href="../static/css/noticias.css">
+    <link rel="stylesheet" href="../static/css/fonts.css">
+    <link rel="stylesheet" href="../static/css/footer.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <!-- <script src="static/js/script.js"></script> -->
+    <title>Tutorize</title>
+</head>
+<body>
+    <div id="container-banner">
+        <div id="particles-js"></div>
+        <div class="links">
+            <ul>
+                <li><a href="">Newsletter</a></li>
+                <li><a href="">Notícias</a></li>
+            </ul>
+        </div>
+        <span class="material-symbols-outlined" id="burguer">menu</span>
+        <ul class="burguer-click">
+            <li class="item"><a href="">Newsletter</a></li>
+            <li class="item"><a href="">Notícias</h4></a>
+        </ul>
+        <div id="logo">
+            <img src="../static/img/logo-sem-fundo.png" alt="Tutorize - IA na sua Experiência de Aprender">
+        </div>
+        <div class="inicio">
+           <h2><u>Notícias e atualizações</u></h2> 
+           <a id="link_inicio" href="/"><button id="botao">Aprenda</button></a>
+        </div>
+    </div>    
+    <div id="newsletter-noticias">
+        <h2><span>Newsletter</span></h2>
+        <p>Não perca a oportunidade de se manter informado! Receba em seu e-mail as atualizações sobre o tema.</p>
+        <span class="material-symbols-outlined email"> email</span>
+
+        <div class="modal-newsletter">
+            <div class="informacoes-newsletter">
+                <span onclick="fechar()"class="material-symbols-outlined" id="icon-newsletter">   close </span>
+     
+                <img class="img-newsletter" src="../static/img/logo-sem-fundo.png" alt="logo Tutorize">
+                <input class="nome-newsletter" type="text" placeholder="Nome">
+                <input class="email-newsletter" type="text" placeholder="Email">
+                <button id="enviar-dados" class="botao" onclick="enviarDados()">Enviar dados</button>
+            </div>
+        </div>
+        <div class="botao-modal-newsletter">
+            <button id="cadastrar-newsletter" class="botao" onclick="abrir()">Cadastrar</button>
+        </div>
+    </div>
+   
+    <div class="todas-noticias default-margin"> 
+        {% for noticia in noticias %}
+            <div style="cursor: pointer;" onclick="window.location.href='/noticia/{{ noticia['id'] }}'" class="noticias">
+                <img class="imagens-noticias" src="data:image;base64,{{ noticia['imagem'] }}" alt="">
+                <div class="noticia-resumo">
+                    <h2>{{ noticia['manchete'] }}</h2>
+                    <p>{{ noticia['descricao'] }}</p>
+                </div>
+            </div>
+        {% endfor %}
+    </div>
+
+    <footer>
+        <div id="container-footer">
+            <div id="particles-js-footer"></div>
+            <div class="footer-conteudo">
+                <div class="newsletter-footer"><p>Deseja receber atulizações <br> com a nossa Newsletter?</p><button class="botao-newsletter-rodape" onclick="abrir()">Cadastre-se</button></div>
+                <img  id="logo-tutorize" class="imagens-footer"  src="../static/img/logo-sem-fundo.png" alt="">
+                <img  id="logo-ifc" class="imagens-footer" src="../static/img/logo-ifc-sem-fundo.png" alt="">
+            </div>
+        </div>    
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+    <script src="../static/js/particles-init.js"></script>
+    <script src="../static/js/navbar.js"></script>
+    <script src="../static/js/modal-newsletter.js"></script>
+</body>
+</html>

@@ -1,0 +1,99 @@
+#particles-js-footer {
+    background-color: black;
+    width: 100%;
+    height: 30vh;
+}
+
+#container-footer {
+  width: 100%;
+  height: 30vh;
+}
+
+#particles-js-footer {
+  position: absolute;
+  z-index:-20;
+}
+
+#container-footer .links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 5%;
+  background-color: #3B3B3B;
+}
+
+.footer-conteudo{
+  display: flex;
+  padding: 1em;
+  gap: 15em;
+  justify-content: center;
+  margin: 1em;
+}
+
+.imagens-footer{
+  z-index: 100;
+}
+
+#logo-tutorize{
+  width: 20em;
+  height: 15em;
+}
+
+#logo-ifc{
+  width: 10em;
+  height: 15em;
+}
+
+.botao-newsletter{
+  background-color: #2576BE;
+  color: white;
+  border-radius: 50px;
+  padding: 10px;
+  border-color: #2576BE;
+  margin-top: 1em;
+}
+
+.botao-newsletter-rodape{
+  background-color: transparent;
+  color: white;
+  border-radius: 50px;
+  padding: 10px;
+  border-color: white;
+  margin-top: 1em;
+}
+
+.newsletter-footer{
+  display: flex;
+  align-items: center;
+  height: 100%;
+  flex-direction: column;
+  font-size: 1.2em;
+  padding-top: 3em;
+}
+
+@media (max-width: 440px) {
+  #conteiner-footer{
+    height: 50vh;
+  }
+
+  #particles-js-footer {
+    height: 50vh;
+}
+
+  .footer-conteudo{
+      flex-direction: column;
+      gap: 2em;
+      align-items: center;
+  }
+
+  #logo-tutorize{
+    width: 10em;
+    height: 6.5em;
+  }
+  
+  #logo-ifc{
+    width: 5em;
+    height: 7.5em;
+  }
+}
+  

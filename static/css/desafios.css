@@ -1,0 +1,63 @@
+
+#container-desafios-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#container-desafios-title .pontil {
+    width: 30%; height: 0.1px;
+    border: 2px dashed white;
+    margin-inline: 5%;
+    
+}
+
+
+#container-desafios-txt {
+    display: flex;
+    flex-direction: column;
+}
+
+#container-desafios-txt .desafios-cont {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 2em;
+
+}
+
+#container-desafios-txt .desafios-cont p {
+    width: 59%;
+    margin-inline: 2em;
+}
+
+#container-desafios-txt .desafios-cont svg {
+    height: 85px; width: 85px;
+}
+
+
+#container-desafios-txt .desafios-cont svg text {
+    font-size: 27px;
+    text-align: center;
+    fill: white;
+}
+
+
+@media (max-width: 440px) {
+    
+    #container-desafios-txt .desafios-cont p {
+        margin-inline: 0 ;
+        margin-left: 0.8em;
+        font-size: 15px ;
+        width: 100%;
+    }
+    #container-desafios-txt .desafios-cont {
+        padding-top: 0.7em;
+    }
+
+    #container-desafios-txt .desafios-cont svg  {
+        height: 70px; width: 70px;
+    }
+    
+}

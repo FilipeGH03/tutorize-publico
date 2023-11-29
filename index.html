@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="static/css/style.css">
+    <link rel="stylesheet" href="static/css/footer.css">
+    <link rel="stylesheet" href="static/css/newsletter.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <script type="module" src="static/js/script.js"></script>
+    <script src="static/js/modal-newsletter.js"></script>
+    <link rel="stylesheet" href="static/css/">
+    <title>Tutorize</title>
+</head>
+<body>
+    <div id="container-banner">
+        <div id="particles-js"></div>
+        <div class="links">
+            <ul>
+                <li><a href="#entenda">Entenda</a></li>
+                <li><a href="#conheca">Conheça</a></li>
+                <li><a href="#experencie">Experencie</a></li>
+                <li><a href="/noticias.html">Informe-se</a></li>
+            </ul>
+        </div>
+        <span class="material-symbols-outlined" id="burguer">menu</span>
+        <ul class="burguer-click">
+            <li><a href="#entenda">Entenda</a></li>
+            <li><a href="#conheca">Conheça</a></li>
+            <li><a href="#experencie">Experencie</a></li>
+            <li><a href="/noticias.html">Informe-se</a></li>            
+        </ul>
+        <div id="logo">
+            <img src="static/img/logo-sem-fundo.png" alt="Tutorize - IA na sua Experiência de Aprender">
+        </div>
+    </div>
+    <div class="navBar">
+        <div class="navButton">
+            <span class="material-symbols-outlined button">arrow_drop_down</span>
+        </div>
+        <div class="links">
+            <ul>
+                <li><a href="#entenda">Entenda</a></li>
+                <li><a href="#conheca">Conheça</a></li>
+                <li><a href="#experencie">Experencie</a></li>
+                <li><a href="/noticias.html">Informe-se</a></li>
+            </ul>
+        </div>
+    </div>
+    <article>
+        <a id="entenda"><section class="default-margin reveal"></a>
+            <h2>Afinal, o que é <span>Inteligência Artificial?</span></h2> 
+            <p>Atualmente, muito se ouve sobre a Inteligência Artificial(IA), todavia pessoas leigas no assunto pouco entendem a sua estruturação e funcionalidade. As IAs, como o próprio nome diz, são uma tecnologia inteligente, ou seja, elas tem o objetivo de ter uma inteligência similar a de nós humanos, podendo desempenhar tarefas bem ou até mesmo melhor que as pessoas. Dessa forma, a IA é estruturada a partir de uma máquina que faz a utilização de algoritmos para atingir o seu objetivo. Alguns exemplos populares de IA, que você provavelmente já utilizou são: </p>           
+            
+            <div class="container-oque-ia">
+                <div class="image-ia"><pre>{</pre><img src="static/img/tecnologias/gpt.png" alt=""><pre class="orange">}</pre></div>
+                <div class="tlb" id="chatGPT">
+                    <p class="title" id="chatGPT-title">
+                        OpenIA(ChatGPT)
+                    </p>
+                    <div class="line" id="chatGPT-line"></div>
+                    <span class="material-symbols-outlined button" id="chatGPT-button">
+                        arrow_drop_down
+                    </span>
+                </div>
+                <div class="txt-ia">
+                    <p>IA treinada para se comunicar a partir de uma linguagem humana, com o intuito de responder perguntas, trabalhar com linguagem e gerar textos criativos. Produto da OpenIA, a versão 3.5, gratuita, foi treinada até setembro de 2021, a partir de dados coletados na internet. <br> <button><a href="https://openai.com/">Saiba Mais</a></button></p>      
+                </div>
+            </div>
+            <div class="txt-ia-mobile" id="chatGPT-text">
+                <p>IA treinada para se comunicar a partir de uma linguagem humana, com o intuito de responder perguntas, trabalhar com linguagem e gerar textos criativos. Produto da OpenIA, a versão 3.5, gratuita, foi treinada até setembro de 2021, a partir de dados coletados na internet.</p>
+            </div>
+
+            <div class="container-oque-ia">
+                <div class="txt-ia">
+                    <p>IA responsável por criar imagens a partir de textos gerados pelos usuários, seu bot utiliza o aplicativo de comunicação Discord. <br>  <button><a href="https://www.midjourney.com/explore">Saiba Mais</a></button></p>      
+                </div>
+                <div class="image-ia"><pre class="orange">{</pre> <img src="static/img/tecnologias/Midjourney.png" alt=""><pre >}</pre></div>
+                <div class="tlb" id="mid">
+                    <p class="title" id="mid-title">
+                        Midjourney
+                    </p>
+                    <div class="line" id="mid-line"></div>
+                    <span class="material-symbols-outlined button" id="mid-button">
+                        arrow_drop_down
+                    </span>
+                </div>
+            </div>
+            <div class="txt-ia-mobile" id="mid-text">
+                <p>IA responsável por criar imagens a partir de textos gerados pelos usuários, seu bot utiliza o aplicativo de comunicação Discord.</p>
+            </div>
+
+            <div class="container-oque-ia find">
+                <div class="image-ia"><pre>{</pre><img src="static/img/tecnologias/alexa.png" alt=""><pre class="orange">}</pre></div>
+                <div class="tlb" id="alexa">
+                    <p class="title" id="alexa-title">
+                        Amazon(Alexa)
+                    </p>
+                    <div class="line" id="alexa-line"></div>
+                    <span class="material-symbols-outlined button" id="alexa-button">
+                        arrow_drop_down
+                    </span>
+                </div>
+                <div class="txt-ia">
+                    <p>IA capaz de se comunicar com o usuário através da fala, ela é um produto exclusivo da Amazon, conhecida também como uma assistente virtual. A partir de comandos, ela desempenha as funções de tocar música, definir alarmes e até mesmo gerenciar uma casa inteligente. <br> <button><a href=" https://alexa.amazon.com.br/">Saiba Mais</a></button></a></button></p>      
+                </div>
+            </div>
+            <div class="txt-ia-mobile" id="alexa-text">
+                <p>IA capaz de se comunicar com o usuário através da fala, ela é um produto exclusivo da Amazon, conhecida também como uma assistente virtual. A partir de comandos, ela desempenha as funções de tocar música, definir alarmes e até mesmo gerenciar uma casa inteligente.</p>
+            </div>
+            <h3 id="pqsIA">Para que serve a IA?</h3>
+            <p>A IA surgiu com o intuito de capacitar os computadores a desempenharem tarefas tão bem ou melhor que as pessoas. Seguindo esta linha de raciocínio a IA é estruturada a partir de uma máquina que faz a utilização de algoritmos para atingir uma capacidade cognitiva semelhante à humana.</p>
+        </section>
+    </article>
+    <article>
+        <section class=" reveal">
+
+            <h2 class="default-margin">Inteligência Artificial: <span>Evolução</span></h2>
+            <div id="container-timeline" class="reveal">
+                <div id="txt-1" class="txt">
+                    <div class="coringa"></div>
+                    <div class="conteudo-1"><h1 id="ano01">1936</h1><p id="p01"> A Máquina de Turing foi considerada a fundação daquilo que conhecemos como IA, ela era capaz de executar processos cognitivos. Os passos eram quebrados em etapas e representadas por um algoritmo.</p></div>
+                    <div class="conteudo-1"><h1 id="ano03">1956</h1><p id="p03">Após a criação da Máquina de Turing e durante a Segunda Guerra Mundial, cientistas colaboraram na busca por um cérebro artificial. Em 1956, formalizou-se o campo da inteligência artificial.</p></div>
+                </div>
+                <div class="time">
+                    <div class="key"><span class="material-symbols-outlined" id="arrow_back_ios_new">arrow_back_ios_new</span></div>     
+                    <div class="cnt-bolls"><div class="boll"></div></div>    
+                    <div class="cnt-lines"><div class="lines"></div></div>     
+                    <div class="cnt-bolls" id="end"><div class="boll"></div></div>     
+                    <div class="cnt-lines"><div class="lines" id="invert"></div></div>     
+                    <div class="cnt-bolls"><div class="boll"></div></div>
+                    <div class="cnt-lines"><div class="lines"></div></div>
+                    <div class="cnt-bolls" id="end"><div class="boll"></div></div>
+                    <div class="key"><span class="material-symbols-outlined" id="arrow_forward_ios">arrow_forward_ios</span></div>
+                </div>
+                <div id="txt-2" class="txt">     
+                    <div class="coringa"></div>
+                    <div class="conteudo-1"><h1 id="ano04">1966</h1><p id="p04">Foi nesse ano que o cientista da computação do MIT, Joseph Weizenbaum, criou o primeiro Chatbot, um programa de computador que interagia com humanos.</p></div>
+                    <div class="conteudo-1"><h1 id="ano02">1972</h1><p id="p02">Um sistema desenvolvido por Ted Shortliffe da Universidade de Stanford foi capaz de realizar o diagnóstico e tratamento de doenças, deste modo incluindo a IA na área médica.</p></div>
+                </div>
+            </div>
+
+
+
+            <div id="container-timeline-cll " class="reveal">
+                <div id="design">
+                    <div class="key2"><span class="material-symbols-outlined arrow_back_cell">arrow_back_ios_new</span></div>
+                    <div class="bollCll"></div>
+                    <div id="lineCll"></div>   
+                    <div class="bollCll"></div>  
+                    <div class="key2"><span class="material-symbols-outlined arrow_forward_cell">arrow_forward_ios</span></div>
+                </div>
+                <div id="textsCll" class="default-margin">
+                    <div class="contents"><h1 id="anotimeline">1966</h1><p id="ptimeline">Foi nesse ano que o cientista da computação do MIT, Joseph Weizenbaum, criou o primeiro Chatbot, um programa de computador que interagia com humanos.</p>
+                </div>
+            </div>
+
+
+            
+        </section>
+    </article>
+    <article>
+        <section class="reveal news-features-section">
+            <!-- <div class="news-features"> 
+                <div class="left">
+                    <p id="nt">Lorem Ipsum as their default model text</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis repellendus est ea, delectus quidem iure tenetur? Officiis, maxime beatae sit eveniet fugiat quia aliquid alias harum eius, temporibus delectus ut?</p>
+                    <a href="" class="more">Leia Mais</a>
+                </div>
+                <div class="right">
+                        <div class="space"></div>
+                        <div class="down">
+                            <div class="ln">
+                                <div class="line"></div>
+                                <div class="number">01</div>
+                            </div>
+                            <div class="arrows">
+                                <span class="material-symbols-outlined">
+                                    arrow_circle_left
+                                </span>
+                                <span class="material-symbols-outlined">
+                                    arrow_circle_right
+                                </span>
+                            </div>
+                        </div>
+                </div> 
+            </div> -->
+            
+        </section>
+    </article>
+    <article>
+        <section id="ai-technologies" class="default-margin reveal">
+            <h2><span>Técnicas</span> de Inteligência Artificial</h2>
+            <h3 class="title">Deep Learning</h3>
+            <!-- <div id="container-tecnicas">
+                <p>Deep Learning ou Aprendizagem Profunda é um subgrupo específico de técnicas de Machine Learning utilizadas para reconhecer características em dados não categorizados. O DL é amplamente utilizado em algoritmos de reconhecimento de voz, detecção de aspectos semelhantes em diferentes imagens, diagnóstico de doenças e muitos outros. A técnicas de DL se mostram muito efetivas entre as técnicas de ML em casos de aprendizagem não supervisionada com grande quantidade de dados  A base do funcionamento de um algoritmo de DL é a utilização de profundas RNAs com uma quantidade massiva de camadas de processamento. O modelo mais utilizado no treinamento com DL são as Redes Neurais Convolucionais, que funcionam dividindo uma representação em amostras através de filtros, mapeando e identificando as principais características (bordas, formas e padrões) e criando um modelo de detecção de padrões.</p>
+                <div class="details">
+                    <div class="image-container">
+                        <div></div>
+                        <span class="material-symbols-outlined click">chevron_right</span>
+                    </div>
+                    <div class="radio-buttons">
+                        <span class="material-symbols-outlined radio checked">radio_button_checked</span>
+                        <span class="material-symbols-outlined radio">radio_button_unchecked</span>
+                        <span class="material-symbols-outlined radio">radio_button_unchecked</span>
+                    </div>
+                </div>
+            </div> -->
+
+            <div id="container-tecnicas">
+                <div id="tec-txt"><p>Deep Learning ou Aprendizagem Profunda é um subgrupo específico de técnicas de Machine Learning utilizadas para reconhecer características em dados não categorizados. O DL é amplamente utilizado em algoritmos de reconhecimento de voz, detecção de aspectos semelhantes em diferentes imagens, diagnóstico de doenças e muitos outros. A técnicas de DL se mostram muito efetivas entre as técnicas de ML em casos de aprendizagem não supervisionada com grande quantidade de dados  A base do funcionamento de um algoritmo de DL é a utilização de profundas RNAs com uma quantidade massiva de camadas de processamento. O modelo mais utilizado no treinamento com DL são as Redes Neurais Convolucionais, que funcionam dividindo uma representação em amostras através de filtros, mapeando e identificando as principais características (bordas, formas e padrões) e criando um modelo de detecção de padrões.</p></div>
+                <div id="image-container">
+                    <div id="image"></div>
+                    <div class="radio-buttons" >
+                        <span id="one" class="material-symbols-outlined radio checked">radio_button_checked</span>
+                        <span class="material-symbols-outlined radio">radio_button_unchecked</span>
+                        <span class="material-symbols-outlined radio">radio_button_unchecked</span>
+                        <span class="material-symbols-outlined click">chevron_right</span>
+                    </div>
+                </div>
+                <div id="button-container">
+                    <span class="material-symbols-outlined click">chevron_right</span>
+                </div>
+            </div>
+        </section>
+    </article>
+    <article>
+        <a id="conheca"><section class="default-margin reveal"></a>
+            <h2>Sistemas <span>Tutores</span> Inteligentes</h2>
+            <p class="sti">No contexto dos ambientes virtuais de aprendizagem, se definem como tutores aqueles que têm a função de organizá-los e configurá-los, selecionar os conteúdos e atividades a serem direcionados aos educandos e oferecer os recursos da plataforma. No entanto, sabe-se que para a maioria dos educadores, isso pode ser uma tarefa que consome muito tempo. A proposta da utilização de Sistemas Tutores Inteligentes (STIs) é automatizar as tarefas dos tutores com base nas informações que obtém do ambiente. Os STIs podem deter diversos módulos, entre eles, alguns dos principais são:</p>
+            
+            
+            <div id="container-stis">
+                <div class="line"></div>
+                <div id="container-icon">
+                <div class="icons-text">
+                    <span class="material-symbols-outlined ">computer</span>
+                    <p>O módulo aluno armazena as ações, respostas e comportamentos dos usuários. É responsável por identificar como o aluno se sente em relação ao que está sendo aplicado, ele indica se o estudante está fatigado ou gostando da aula.</p>
+                </div>
+
+                <div class="icons-text">
+                    <span class="material-symbols-outlined  orange">psychology</span>
+                    <p>O módulo pedagógico é responsável pelo controle das informações. Ele utiliza as noções sobre o aluno e seus objetivos de aprendizagem para escolher as atividades educacionais que devem ser apresentadas. Existem três variedades de ensino abordadas dentro deste módulo: Com base no ensino humano; informado por teoria de aprendizagem; facilitada pela tecnologia.</p>
+                </div>
+
+                <div class="icons-text">
+                    <span class="material-symbols-outlined ">menu_book</span>
+                    <p>O módulo interface de usuários é responsável pela comunicação entre o aluno e o tutor. Apresenta uma interface gráfica atrativa, com recursos efetivos para os alunos, além de respostas como texto ou falas. Caso essas características não sejam alcançadas, o módulo pode retardar a experiência e a motivação do aluno.</p>
+                </div>
+                
+                
+                </div>
+            </div>
+        
+        </section>
+    </article>
+    <article>
+        <section class="reveal">
+            <!-- <h2>Inteligência Artificial na <span>Educação</span></h2> -->
+            <div id="container-educacao">
+                <div id="negative-side" class="sides"> 
+                    <hr>
+                    <p>REFLEXOS NEGATIVOS</p>
+                    <hr> 
+                    <ul id="list1">
+                        <li>Não modifica seus exemplos, conteúdos e representações conforme as respostas do aluno. </li>
+                        <li>Não permite que o usuário aprenda através de discussões com outros alunos, ou qualquer outro tipo de interação com os colegas.</li>
+                        <li>Não detecta estado motivacional e afetivo do aluno.</li>
+                        <li>Não gera múltiplas representações do conhecimento.</li>
+                    </ul>
+                </div>
+                <div id="positive-side" class="sides"> 
+                    <hr>
+                    <p> REFLEXOS POSITIVOS </p>
+                    <hr>
+                    <ul id="list2">
+                        <li>Possuem conhecimento do aluno que lhes permite dirigir e adaptar o ensino. </li>
+                        <li>A comunicação Tutor-Aluno melhora, permitindo que o aluno realize perguntas ao tutor.</li>
+                        <li>Realizam processos de diagnóstico mais adaptados ao aluno e mais detalhados.</li>
+                        <li>Os STIs estão disponíveis a qualquer momento, o que permite o aluno acessar os recursos de aprendizagem sempre que for conveniente.</li>
+                    </ul>
+                </div>
+            
+            
+            </div>
+        </section>
+    </article>
+
+    <article>
+        <section class="default-margin reveal">
+            
+            <div id="container-desafios-title">
+                <div class="pontil"></div>
+                <h2>DESAFIOS</h2>
+                <div class="pontil"></div>
+            </div>
+
+            <div id="container-desafios-txt">
+                <div class="desafios-cont">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 98 100" fill="none"><path d="M0.474854 0.607422H97.3983L76.014 57.4027L24.3586 99.9278L0.474854 0.607422Z" fill="#FF914D"/><text x="40" y="50" >1 </text></svg>
+                    <p>É necessário que especialistas em tecnologia envolvam-se com essas causas e ideias;</p>
+                </div>
+                <div class="desafios-cont">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 98 100" fill="none"><path d="M0.474854 0.607422H97.3983L76.014 57.4027L24.3586 99.9278L0.474854 0.607422Z" fill="#2576BE"/><text x="40" y="50" >2 </text></svg>
+                    <p>Tecnologias que trabalham com uma quantidade exorbitante de dados devem ser mais testadas.</p>
+                </div>
+                <div class="desafios-cont">
+                    <svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 98 100" fill="none"><path d="M0.474854 0.607422H97.3983L76.014 57.4027L24.3586 99.9278L0.474854 0.607422Z" fill="#FF914D"/><text x="40" y="50" >3 </text></svg>
+                    <p> Os STIs dependem da coleta e análise de dados para entender o progresso do aluno. Isso levanta preocupações de privacidade e segurança dos dados.</p>
+                </div>
+                <div class="desafios-cont">
+                    <svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 98 100" fill="none"><path d="M0.474854 0.607422H97.3983L76.014 57.4027L24.3586 99.9278L0.474854 0.607422Z" fill="#2576BE"/><text x="40" y="50" >4 </text></svg>
+                    <p>Os custos para implementar um STI são exorbitantes e algumas instituições educacionais podem enfrentar desafios para obter essa tecnologia.</p>
+                </div>
+            </div>
+        </section>
+    </article>
+
+
+    <article id="device-ai">
+        <a id="experencie"><section class="default-margin reveal"></a>
+            <h2>A IA no <span>seu</span> dispositivo</h2>
+            <div id="digit-recognizer">
+                <canvas width="280" height="280">Seu navegador/dispositivo não oferece suporte ao recurso.</canvas>
+                <span class="material-symbols-outlined arrow">arrow_right_alt</span>
+                <span class="result">?</span>
+            </div>
+            <div id="tensorflow-example">
+                <h3>Tensorflow</h3>
+                <iframe src="static/playground-files/index.html" frameborder="0" scrolling="no"></iframe>
+            </div>
+        </section>
+        <section class="modal">
+            <div class="modal-newsletter">
+                 <div class="informacoes-newsletter">
+                    <span onclick="fechar()"class="material-symbols-outlined" id="icon-newsletter">   close </span>
+             
+                    <img class="img-newsletter" src="static/img/logo-sem-fundo.png" alt="logo Tutorize">
+                    <input class="nome-newsletter" type="text" placeholder="Nome">
+                    <input class="email-newsletter" type="text" placeholder="Email">
+                    <!-- <button id="enviar-dados" class="botao" onclick="enviarDados()">Enviar dados</button> -->
+                </div>
+            </div>
+        </section>
+    </article>
+
+    <footer>
+        <div id="container-footer">
+            <div id="particles-js-footer"></div>
+            <div class="footer-conteudo">
+                <div class="newsletter-footer"><p>Deseja receber atulizações <br> com a nossa Newsletter?</p><button class="botao-newsletter-rodape" onclick="abrir()">Cadastre-se</button></div>
+                <img  id="logo-tutorize" class="imagens-footer"  src="static/img/logo-sem-fundo.png" alt="">
+                <img  id="logo-ifc" class="imagens-footer" src="static/img/logo-ifc-sem-fundo.png" alt="">
+            </div>
+        </div>    
+    </footer>
+    
+    <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@latest"></script>
+    <script src="https://raw.githubusercontent.com/tensorflow/tfjs-examples/master/mnist-core/data.js"></script>
+</body>
+</html>

@@ -1,0 +1,11 @@
+import './navbar.js';
+import './particles-init.js';
+import './scroll.js';
+import './news-features.js';
+import './digit-recognizer.js';
+import './technologies.js';
+import './tensorflow-example.js';
+import './iaeducacao.js';
+import './sti.js';
+import './whatIA.js';
+import './timeline.js';

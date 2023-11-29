@@ -1,0 +1,30 @@
+#digit-recognizer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 2em;
+    margin-top: 1.5em;
+    margin-bottom: 20em;
+}
+
+#digit-recognizer canvas {
+    border: 0.3em white dashed;
+    touch-action: none;
+}
+
+#digit-recognizer .arrow {
+    font-size: 3em;
+}
+
+#digit-recognizer .result {
+    font-size: 8em;
+    color: #ff914d;
+    font-weight: bolder;
+}
+
+@media (max-width: 500px) {
+    #digit-recognizer {
+        flex-direction: column;
+    }
+}

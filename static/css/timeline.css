@@ -1,0 +1,174 @@
+#container-timeline {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.txt {
+    width: 100%;
+    height: 35%;
+    display: flex;
+}
+
+.time {
+    width: 100%; height: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.coringa {
+    height: 80%;width: 11.7%;
+}
+
+.conteudo-1 {
+    height: 80%; width: 30.7%;
+    display: flex;
+    justify-content: end;
+    align-items: center;  
+    word-wrap: break-word;
+    flex-direction: column;
+}
+
+.conteudo-1 h1 {
+    color: #2576BE;
+    font-size: 23px;
+}
+
+.conteudo-1 p {
+    width: 60%; height: 50%;
+    color: white;
+    margin-top: 2em;
+    text-align:justify;
+}
+
+#txt-2 {
+    flex-direction: row-reverse;
+}
+
+.cnt-bolls {
+    height: 100%; 
+}
+
+.boll {
+    width: 2.3em; height: 2.3em;
+    border: 3px solid #ff914d;;
+    border-radius: 50%;
+    background-color: black;
+}
+
+#end {
+    display: flex;
+    justify-content: end;
+    flex-direction: column;
+
+}
+
+.cnt-lines {
+    height: 75%; width: 13%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.lines {
+    background-color: azure;
+    height: 105%; width: 2%;
+    transform: skew(50deg);
+    border-radius: 5px;
+    z-index: -1;
+}
+
+
+#invert {
+    transform: skew(-50deg);
+}
+
+.key {
+    width: 26.4%; height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.key span {
+    font-size: 4em !important ;
+    color: white;
+    user-select: none;
+}
+
+.key span:hover {
+    cursor: pointer;
+}
+
+#container-timeline-cll {
+    display: flex;
+    flex-direction: column;
+}
+
+.key2 span {
+    font-size: 3em !important;
+}
+
+.key2 span:hover {
+    cursor: pointer;
+}
+
+
+#design {
+    display: none;
+    justify-content: center;
+    align-items: center;
+    width: 100%; height: 10vh;
+}
+
+#lineCll {
+    width: 60%;height: 1%;
+    background-color: white;
+}
+
+.bollCll {
+    width: 2em; height: 2em;
+    background-color: black;
+    border-radius: 50%;
+    border: 2px solid #ff914d;
+}
+
+#textsCll {
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.contents {
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.contents h1 {
+    color: #2576BE;
+}
+
+.contents p {
+    width: 100%;
+}
+
+@media(max-width:1060px) {
+
+    #container-timeline {
+        display: none;
+    }
+
+    #design {
+        display: flex;
+    }
+
+    #textsCll {
+        display: flex;
+    }
+}

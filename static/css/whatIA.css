@@ -1,0 +1,167 @@
+.container-oque-ia {
+    width: 100%;
+    height: 30vh;
+    display: flex;
+    margin-top: 1.2em;
+}
+
+.container-oque-ia .image-ia {
+    width: 50%; height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.container-oque-ia .image-ia pre {
+    font-size: 160px;
+    color: #2576BE;
+}
+
+.container-oque-ia .image-ia img {
+    width: 10em; height: 10em;
+}
+
+.container-oque-ia .image-ia .orange {
+    color: #ff914d;
+}
+
+.container-oque-ia .txt-ia{
+    width: 50%; height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container-oque-ia .txt-ia p {
+    width: 70%;
+    border: 1px solid white;
+    padding: 1em;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.container-oque-ia .txt-ia p button {
+    width: 30%; height: 3em;
+    color: white;
+    background-color: #2576BE;
+    margin-top: 1em;
+    border-radius: 20px;
+    border: none;
+    font-size: 15px;
+}
+
+.container-oque-ia .txt-ia p button a {
+    text-decoration: none;
+    color: white;
+}
+
+.find {
+    margin-bottom: 3em;
+}
+
+.container-oque-ia .tlb{
+    display: none;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2vh;
+}   
+
+.container-oque-ia .tlb .line{
+    width: 100%;
+    height: 0.1em;
+    background-color: rgb(255, 255, 255);
+}
+
+.container-oque-ia .tlb .button{
+    align-self: center;
+    font-size: 3em;
+    color: #ff914d;
+    margin-top: -0.3em;
+    cursor: pointer;
+    user-select: none;
+}
+.txt-ia-mobile{
+    width: 100%;    
+    
+}
+
+#chatGPT-text{
+    display: none;
+}
+
+#mid-text{
+    display: none;
+}
+
+#mid-button{
+    color: #2576BE;
+}
+
+#alexa-text{    
+    display: none;
+}
+
+@media(max-width:1060px){
+    .container-oque-ia {
+        width: 100%;
+        height: 7em;
+        display: flex;
+        margin-top: 1.2em;
+        margin-left: -1em;
+        
+    }
+
+    .container-oque-ia .image-ia pre {
+        display: none;
+    }
+    .container-oque-ia .image-ia img {
+        width: 7em; height: 7em;
+        margin-top: 15%;
+    }
+
+    .container-oque-ia .image-ia {
+        width: 7em; height: 100%;
+        
+    }
+
+    .container-oque-ia .txt-ia{
+        display: none;  
+    }
+
+    .container-oque-ia .txt-ia p {
+        display: none;
+    }
+    
+    
+    .container-oque-ia .txt-ia p input {
+        display: none;
+    }
+    .find {
+        margin-bottom: 0%;
+    }
+    
+    .container-oque-ia .tlb{
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    #pqsIA{
+        margin-top: 4%;
+        margin-bottom: 1%;
+      }
+}
+
+@media (max-width: 440px) {
+    #pqsIA{
+      margin-top: 15%;
+      margin-bottom: 5%;
+    }
+  }
