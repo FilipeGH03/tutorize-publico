@@ -11,9 +11,9 @@ let technologiesText = [
 ];
 
 let technologiesImages = [
-    "../static/img/tecnologias/testetec.webp",
-    "../static/img/tecnologias/RNAs.webp",
-    "../static/img/tecnologias/Random.jpg"
+    "static/img/tecnologias/testetec.webp",
+    "static/img/tecnologias/RNAs.webp",
+    "static/img/tecnologias/Random.jpg"
 ];
 
 let technologiesTitles = [

@@ -3,21 +3,21 @@ const newsList = [{
     "n": 1,
     "title": "PROBLEMAS DECORRENTES DO USO DA IA",
     "subTitle": "Entenda os problemas que o uso da Inteligência Artificial pode causar no nosso dia a dia e como ela funciona.",
-    "img": "../static/img/news/news1.png", //tem que trocar as imagens
+    "img": "static/img/news/news1.png", //tem que trocar as imagens
     "ref": "" //link da pagina da noticia
 },
 {
     "n": 2,
     "title": "FERRAMENTAS DE IA PODEM AFETAR O DESENVOLVIMENTO DOS ALUNOS?",
     "subTitle": "Entenda como o chat GPT e outras ferramentas de Inteligência Artificial podem afetar o desenvolvimento dos alunos.",
-    "img": "../static/img/news/news2.png", //tem que trocar as imagens 
+    "img": "static/img/news/news2.png", //tem que trocar as imagens 
     "ref": "" //link da pagina da noticia
 },
 {
     "n": 3,
     "title": "AS LEIS SOBRE A INTERNET SÃO RÍGIDAS O SUFICIENTE?",
     "subTitle": "As leis existentes sobre a internet conseguem dar conta da nossa realidade atual? Deveriam existir leis mais rígidas?",
-    "img": "../static/img/news/news3.png", //tem que trocar as imagens 
+    "img": "static/img/news/news3.png", //tem que trocar as imagens 
     "ref": "" //link da pagina da noticia
 }];
 
